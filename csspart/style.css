@@ -798,3 +798,60 @@ top: 2441.55px;
 background: #F53838;
 border-radius: 50px;
 }
+
+.h2HGN
+{
+    position: absolute;
+    width: 383.41px;
+    height: 100px;
+    left: 528.3px;
+    top: 2686.55px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+   
+    text-align: center;
+    
+    color: #0B132A
+}
+
+.pHGN
+{
+    position: absolute;
+    width: 555px;
+    height: 60px;
+    left: 442.5px;
+    top: 2806.55px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #4F5665;
+    
+}
+
+.HugeGlobal
+{
+    position: absolute;
+    width: 1060px;
+    height: 537.77px;
+    left: 190px;
+    top: 3022.36px;
+    
+}
+
+.Sponsors
+{
+width: 1135.64px;
+height: 208.32px;
+left: 145px;
+top: 3595.93px;
+}

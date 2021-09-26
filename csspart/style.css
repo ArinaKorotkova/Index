@@ -1,7 +1,7 @@
-
-body {
-    background-color: #F6F6F6;
-  }
+body
+{
+    background:#F6F6F6;;
+}
 
 .Logo
 {
@@ -9,7 +9,7 @@ position: absolute;
 width: 1050px;
 height: 36.23px;
 left: 150px;
-top: 50px;
+top: 47px;
 }
 
 .Navaigator
@@ -17,8 +17,8 @@ top: 50px;
 position: absolute;
 width: 46px;
 height: 19px;
-left: 456px;
-top: 58.62px;
+left: 400px;
+top: 44px;
 
 font-family: Rubik;
 font-style: normal;
@@ -26,6 +26,20 @@ font-weight: normal;
 font-size: 16px;
 line-height: 19px;
 }
+
+ul.Begin {
+    display: flex;
+  }
+  .Begin li {
+    font-size: 16px ;
+    list-style: none;
+  }
+  
+  .Begin li a {
+    text-decoration: none;
+    margin: 29px;
+    color: #4F5665;
+  }
 
 .navli
 {
@@ -126,7 +140,7 @@ color: #0B132A
 .LaslesVPN1
 {
 font-family: Rubik;
-font-style: normal;
+font-style:normal;
 font-weight: 700;
 font-size: 50px;
 line-height: 70px;
@@ -138,7 +152,7 @@ line-height: 70px;
 width: 555px;
 height: 60px;
 left: 150px;
-top: 366.77px;
+top: 390.77px;
 
 font-family: Rubik;
 font-style: normal;
@@ -361,7 +375,7 @@ color: #4F5665;
     
     font-family: Rubik;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 35px;
     line-height: 50px;
     
@@ -648,7 +662,7 @@ font-family: Rubik;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 19px;
+line-height: 40px;
 text-decoration-line: noon;
 text-align: center;
 text-decoration-line: none;
@@ -664,6 +678,12 @@ color: #F53838;
     box-sizing: border-box;
     border-radius: 50px;
 
+}
+
+.SelectF:hover
+{
+text-decoration-line: underline;
+color:orange;
 }
 
 .pSP
@@ -706,17 +726,12 @@ color: #F53838;
 
 .SelectS
 {
-    position: absolute;
-    width: 52px;
-    height: 19px;
-    left: 694px;
-    top: 2454.55px;
-    
+    vertical-align: middle;
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 40px;
     text-align: center;
     text-decoration-line: none;
     
@@ -731,6 +746,12 @@ top: 2441.55px;
 border: 2px solid #F53838;
 box-sizing: border-box;
 border-radius: 50px;
+}
+
+.SelectS:hover
+{
+text-decoration-line: underline;
+color:orange;
 }
 
 .pPP
@@ -781,7 +802,7 @@ border-radius: 50px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 43px;
    text-align:center;
    text-decoration-line: none;
     
@@ -797,6 +818,12 @@ top: 2441.55px;
 
 background: #F53838;
 border-radius: 50px;
+}
+
+.SelectP:hover
+{
+text-decoration-line: underline;
+color:maroon;
 }
 
 .h2HGN
@@ -837,6 +864,19 @@ border-radius: 50px;
     color: #4F5665;
     
 }
+.pHGNVPN
+{
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 16px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #4F5665;
+}
 
 .HugeGlobal
 {
@@ -848,10 +888,657 @@ border-radius: 50px;
     
 }
 
-.Sponsors
+.netflix
 {
-width: 1135.64px;
-height: 208.32px;
+position: absolute;
+width: 200px;
+height: 112.5px;
 left: 145px;
-top: 3595.93px;
+top: 3643.84px;
 }
+
+.reddit
+{
+    position: absolute;
+    width: 190px;
+    height: 60px;
+    left: 387.5px;
+    top: 3670.09px;
+}
+
+.amazon
+{
+    position: absolute;
+    width: 277.76px;
+    height: 208.32px;
+    left: 581.12px;
+    top: 3595.93px;
+}
+
+.discord
+{
+    position: absolute;
+    width: 187.02px;
+    height: 63.59px;
+    left: 862.5px;
+    top: 3670.09px;
+}
+
+.spotify
+{
+    position: absolute;
+    width: 171.28px;
+    height: 51.34px;
+    left: 1109.36px;
+    top: 3674.42px;
+    
+}
+
+.h2TTHC
+{
+    position: absolute;
+    width: 447.81px;
+    height: 100px;
+    left: 496.1px;
+    top: 3854.25px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    
+    text-align: center;
+    
+    color: #0B132A;
+}
+
+.pTTHC
+{
+    position: absolute;
+    width: 555px;
+    height: 60px;
+    left: 442.5px;
+    top: 3974.25px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.PicRamRed
+{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 150px;
+    top: 4094.25px;
+}
+
+.PicViezh
+{
+    position: absolute;
+    width: 182px;
+    height: 50px;
+    left: 180px;
+    top: 4124.25px;
+}
+
+.pMark1
+{
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 470px;
+    top: 4141.6px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #0B132A;
+    
+}
+
+.star1
+{
+    position: absolute;
+width: 16px;
+height: 16px;
+left: 504px;
+top: 4140.9px;
+    
+}
+
+.pCom1
+{
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    left: 180px;
+    top: 4194.25px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #0B132A;
+}
+
+.PicRamGray1
+{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 600px;
+    top: 4094.25px;
+    
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.PicYessica
+{
+    position: absolute;
+    width: 212.02px;
+    height: 50px;
+    left: 630px;
+    top: 4124.25px;
+    
+}
+
+.pCom2
+{
+    position: absolute;
+width: 340px;
+height: 100px;
+left: 630px;
+top: 4182.25px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+
+
+color: #0B132A;
+}
+
+.pMark2
+{
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 920px;
+    top: 4141.6px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #0B132A
+}
+
+.star2
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 954px;
+    top: 4140.9px;
+}
+
+.PicRamGray2
+{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    left: 1050px;
+    top: 4094.25px;
+    
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.PicKim
+{
+    position: absolute;
+    width: 212.02px;
+    height: 50px;
+    left: 1080px;
+    top: 4124.25px;
+}
+
+.pMark3
+{
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    left: 1370px;
+    top: 4141.6px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #0B132A;
+}
+
+.star3
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1404px;
+    top: 4140.9px;
+}
+
+.pCom3
+{
+    position: absolute;
+    width: 340px;
+    height: 100px;
+    left: 1080px;
+    top: 4177.25px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #0B132A;
+}
+
+.Scroll
+{
+    position: absolute;
+width: 135px;
+height: 15px;
+left: 150px;
+top: 4406.75px;
+}
+
+.BLeft
+{
+    position: relative;
+    background-image: url("Картинки/left.png");
+    width: 60px;
+    height: 60px;
+    left: 1150px;
+    top: 4380.75px;
+
+    border: 2px;
+    border-radius: 60px;
+box-sizing: border-box;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.BRight
+{
+    position: relative;
+    background-image: url("Картинки/right.png");
+    width: 60px;
+    height: 60px;
+    left: 1170px;
+    top: 4380.75px;
+
+    border: 2px;
+    border-radius: 60px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-repeat: no-repeat;
+
+}
+
+.Subscr
+{
+    position: absolute;
+width: 371.61px;
+height: 80px;
+left: 220px;
+top: 4567.78px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 45px;
+
+display: flex;
+align-items: center;
+
+color: #0B132A;
+}
+
+.pSub
+{
+    position: absolute;
+width: 410px;
+height: 16px;
+left: 220px;
+top: 4667.78px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+
+display: flex;
+align-items: center;
+
+color: #4F5665;
+}
+
+.Sub
+{
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    left: 970px;
+    top: 4613.28px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    text-decoration-line: none;
+
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 970px;
+    top: 4613.78px;
+
+    background: #F53838;
+    border-radius: 10px;
+}
+
+.Sub:hover
+{
+   text-decoration-line: underline;
+   color:maroon
+}
+
+.Logo2
+{
+    position: absolute;
+    width: 149px;
+    height: 36.23px;
+    left: 150px;
+    top: 4805.78px;
+    
+}
+
+.pLaslesVPN
+{
+    position: absolute;
+    width: 340px;
+    height: 61.57px;
+    left: 150px;
+    top: 4862.01px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    
+    
+    color: #4F5665;
+}
+
+.FootLasVPN
+{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.facebook
+{
+    position: absolute;
+width: 33.6px;
+height: 33.6px;
+left: 150px;
+top: 4953.58px;
+background-image: ("Картинки/Facebook.png");
+}
+
+.twitter
+{
+    position: absolute;
+    width: 33.6px;
+    height: 33.6px;
+    left: 203.6px;
+    top: 4953.58px;
+    background-image: ("Картинки/Twitter.png");
+}
+
+.inst
+{
+    position: absolute;
+    width: 33.6px;
+    height: 33.6px;
+    left: 257.2px;
+    top: 4953.58px;
+    background-image: ("Картинки/Instagram.png");
+}
+
+.p2020
+{
+    position: absolute;
+width: 132px;
+height: 30px;
+left: 150px;
+top: 5017.18px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+
+text-align: center;
+
+color: #AFB5C0;
+
+}
+
+.h3En
+{
+    position: absolute;
+    width: 66px;
+    height: 30px;
+    left: 920px;
+    top: 4808.89px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: none;
+    
+    color: #0B132A;
+}
+
+.h3En:hover
+{
+text-decoration-line: underline;
+color: #0B132A;
+}
+
+.Engage
+{
+    position: absolute;
+    width: 123px;
+    height: 280px;
+    left: 920px;
+    top: 4840.89px;
+    line-height: 40px;
+    
+}
+
+.En-link
+{
+    text-decoration-line: none;
+    color: #4F5665;
+}
+
+.En-link:hover
+{
+    text-decoration-line: underline;
+    color: #4F5665;
+}
+
+.Enli
+{
+ list-style-type: none;
+}
+
+.h3Pr
+{
+    position: absolute;
+    width: 71px;
+    height: 30px;
+    left: 720px;
+    top: 4808.89px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: none;
+    
+    color: #0B132A;
+    
+}
+
+.h3Pr:hover
+{
+    text-decoration-line: underline;
+    color: #0B132A;
+}
+
+.Product
+{
+    position: absolute;
+    width: 74px;
+    height: 280px;
+    left: 720px;
+    top: 4840.89px;
+    line-height: 40px;
+}
+
+.Pr-link
+{
+    text-decoration-line: none;
+    color: #4F5665;
+}
+
+.Pr-link:hover
+{
+    text-decoration-line: underline;
+    color: #4F5665;
+}
+
+.Prli
+{
+    list-style-type: none;
+}
+
+.h3Em
+{
+    position: absolute;
+    width: 102px;
+    height: 30px;
+    left: 1169px;
+    top: 4808.89px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px; 
+    text-decoration-line: none;
+    
+    color: #0B132A;
+    
+}
+
+.h3Em:hover
+{
+    text-decoration-line: underline;
+    color: #0B132A;
+}
+
+.Em
+{
+    position: absolute;
+    width: 121px;
+    height: 120px;
+    left: 1169px;
+    top: 4840.89px;
+    line-height: 40px;
+    
+}
+
+.Em-link
+{
+    text-decoration-line: none;
+    color: #4F5665;
+}
+
+.Em-link:hover
+{
+    text-decoration-line: underline;
+    color: #4F5665;
+}
+
+.EmLi
+{
+    list-style-type: none;
+}
+

@@ -9,22 +9,23 @@ body
     background:#F6F6F6;;
 }
 
+/*логотип верхний*/
 .Logo
 {
-
-width: 1050px;
-height: 36.23px;
-left: 150px;
-top: 47px;
+    position: relative;
+    width: 1050px;
+    height: 50px;
+    left: 121.3px;
+    top: 55px;
 }
 
+/*навигатор по страницам*/
 .Navaigator
 {
-
+position: relative;
 width: 46px;
-height: 19px;
 left: 400px;
-top: 44px;
+
 
 font-family: Rubik;
 font-style: normal;
@@ -33,19 +34,23 @@ font-size: 16px;
 line-height: 19px;
 }
 
-ul.Begin {
-    display: flex;
-  }
-  .Begin li {
+ul.Begin 
+{
+    display:inline-flex;
+}
+
+  .Begin li 
+{
     font-size: 16px ;
-    list-style: none;
-  }
+    list-style: none;   
+}
   
-  .Begin li a {
+  .Begin li a 
+{
     text-decoration: none;
-    margin: 29px;
+    margin: 65px;
     color: #4F5665;
-  }
+}
 
 .navli
 {
@@ -63,19 +68,23 @@ ul.Begin {
     text-decoration-line:underline
 }
 
-.signin
-{
-    
-width: 53px;
-height: 19px;
-left: 1057px;
-top: 58.62px;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;  
+/*Кнопка залогиниться*/
+.signin
+{  
+    position: absolute;
+ width: 53px;
+ height: 19px;
+ left: 1057px;
+ top: 67px;
+ margin-left: 400px;
+
+
+ font-family: Rubik;
+ font-style: normal;
+ font-weight: 500px;
+ font-size: 16px;
+ line-height: 19px;  
 }
 
 .signlink
@@ -89,34 +98,32 @@ line-height: 19px;
     text-decoration-line:underline;
 }
 
-
+/*Кнопка создать аккаунт*/
 .signbut
-{
+{  
+    position: absolute;
+ width: 60px;
+ height: 19px;
+ left: 1185px;
+ top: 58.62px;
+
+ font-family: Rubik;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 19px;
+
+ color: #F53855;
+
+ width: 150px;
+ height: 45px;
+ left: 1140px;
+ top: 50px;
+ margin-left: 450px;
     
-width: 60px;
-height: 19px;
-left: 1185px;
-top: 58.62px;
-
-font-family: Rubik;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 19px;
-
-
-color: #F53855;
-
-
-    width: 150px;
-    height: 45px;
-    left: 1140px;
-    top: 45.62px;
-    
-    border: 1px solid #F53855;
-    box-sizing: border-box;
-    border-radius: 50px
-
+ border: 1px solid #F53855;
+ box-sizing: border-box;
+ border-radius: 50px
 }
 
 .signbut:hover
@@ -125,22 +132,22 @@ color: #F53855;
     color:orange;
 }
 
+/*Want anything...*/
 .h1VPN1
-{
+{  
+ width: 555px;
+ height: 140px;
+ left: 150px;
+ margin-top: 106.77px;;
+ margin-left: 121.3px ;
 
-width: 555px;
-height: 140px;
-left: 150px;
-top: 206.77px;
+ font-family: Rubik;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 50px;
+ line-height: 70px;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: 500;
-font-size: 50px;
-line-height: 70px;
-
-
-color: #0B132A
+ color: #0B132A
 }
 
 .LaslesVPN1
@@ -153,36 +160,34 @@ line-height: 70px;
 }
 
 .ParVPN
-{
-    
-width: 555px;
-height: 60px;
-left: 150px;
-top: 390.77px;
+{  
+ width: 555px;
+ height: 60px;
+ left: 150px;
+ top: 390.77px;
+ margin-left: 121.3px ;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
+ font-family: Rubik;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 16px;
+ line-height: 30px;
 
-
-color: #4F5665;
-
+ color: #4F5665;
 }
 
 .LaslesVPN2
 {
-font-family: Rubik;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 30px;
+ font-family: Rubik;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 30px;
 }
 
+/*Кнопка Get started*/
 .GetStr
 {
-    
     width: 95px;
     height: 25px;
     left: 227.5px;
@@ -195,14 +200,14 @@ line-height: 30px;
     line-height: 25px;
     color: var(--btn-text-color);
 
-
-width: 250px;
-height: 60px;
-left: 150px;
-top: 476.77px;
+ width: 250px;
+ height: 60px;
+ left: 150px;
+ margin-left: 121.3px ;
+ margin-top: 76.77px;;
     
-background: var(--btn-color-bg);
-border-radius: 150px;  
+ background: var(--btn-color-bg);
+ border-radius: 150px;  
 
 }
 
@@ -211,19 +216,25 @@ border-radius: 150px;
   color:maroon;
 }
 
+/*Первая большая картинка с человечком*/
 .PicMan1
-{
-    
-width: 611.24px;
-height: 382.44px;
-left: 745.76px;
-top: 179.11px;
+{  
+    position: absolute;
+    left: 1000.76px;
+    top: 150px;
+}
 
+.ULS
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-top: 270px;
 }
 
 .User
-{
-    
+{  
 width: 55px;
 height: 55px;
 left: 241px;
@@ -235,8 +246,7 @@ border-radius: 70px;
 
 
 .p90
-{
-    
+{  
 width: 49px;
 height: 30px;
 left: 332.5px;
@@ -248,13 +258,11 @@ font-weight: bold;
 font-size: 25px;
 line-height: 30px;
 
-
 color: #0B132A;
 }
 
 .pU
-{
-    
+{   
 width: 53px;
 height: 30px;
 left: 332.5px;
@@ -270,8 +278,7 @@ color: #4F5665;
 }
 
 .LocPic
-{
-    
+{ 
     width: 55px;
     height: 55px;
     left: 628.5px;
@@ -282,8 +289,7 @@ color: #4F5665;
 }
 
 .p30
-{
-    
+{  
     width: 49px;
     height: 30px;
     left: 720px;
@@ -299,8 +305,7 @@ color: #4F5665;
 }
 
 .pLoc
-{
-    
+{ 
     width: 91px;
     height: 30px;
     left: 720px;
@@ -317,20 +322,17 @@ color: #4F5665;
 
 .SerPic
 {
-    
     width: 55px;
     height: 55px;
     left: 1037px;
     top: 737.05px;
-    
+
     background: #FFECEC;
     border-radius: 70px;
 }
 
 .p50
-{
-
-    
+{ 
     width: 49px;
     height: 30px;
     left: 1128.5px;
@@ -346,8 +348,7 @@ color: #4F5665;
 }
 
 .pSer
-{
-    
+{ 
     width: 71px;
     height: 30px;
     left: 1128.5px;
@@ -364,7 +365,7 @@ color: #4F5665;
 
 .PicMan2
 {
-    
+
     width: 508.12px;
     height: 414.71px;
     left: 184.52px;
@@ -372,8 +373,7 @@ color: #4F5665;
 }
 
 .h2Use
-{
-    
+{ 
     width: 383.41px;
     height: 100px;
     left: 862.12px;
@@ -385,14 +385,11 @@ color: #4F5665;
     font-size: 35px;
     line-height: 50px;
     
-    
-    color: #0B132A;
-    
+    color: #0B132A; 
 }
 
 .pUse
 {
-    
     width: 427.88px;
     height: 60px;
     left: 862.12px;
@@ -404,27 +401,23 @@ color: #4F5665;
     font-size: 16px;
     line-height: 30px;
     
-    
     color: #4F5665;
 }
 
 .point1
-{
-    
+{  
     width: 24px;
     height: 24px;
     left: 862.12px;
     top: 1217.55px;
-    
 }
 
 .point2
-{
-    
-width: 24px;
-height: 24px;
-left: 862.12px;
-top: 1262.55px;
+{   
+ width: 24px;
+ height: 24px;
+ left: 862.12px;
+ top: 1262.55px;
 }
 
 .point3
@@ -483,8 +476,7 @@ color: #4F5665;
 }
 
 .ch3
-{
-    
+{ 
     width: 125px;
     height: 30px;
     left: 896.2px;
@@ -501,19 +493,18 @@ color: #4F5665;
 
 .ch4
 {
-    
-width: 145px;
-height: 30px;
-left: 896.2px;
-top: 1335.55px;
+ width: 145px;
+ height: 30px;
+ left: 896.2px;
+ top: 1335.55px;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 30px;
+ font-family: Rubik;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 30px;
 
-color: #4F5665;
+ color: #4F5665;
 }
 
 .Plan
@@ -537,8 +528,7 @@ color: #4F5665;
 }
 
 .pCh
-{
-    
+{   
 width: 555px;
 height: 60px;
 left: 442.5px;

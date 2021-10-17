@@ -207,7 +207,8 @@ line-height: 70px;
  margin-top: 76.77px;;
     
  background: var(--btn-color-bg);
- border-radius: 150px;  
+ border-radius: 10px;  
+ border-color: rgb(255, 0, 0);
 
 }
 
@@ -220,30 +221,36 @@ line-height: 70px;
 .PicMan1
 {  
     position: absolute;
-    left: 1000.76px;
+    left: 850.76px;
     top: 150px;
 }
 
+
+/*Первый флекс в мейне*/
 .ULS
 {
-    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px 30px;
     display: flex;
     justify-content: space-around;
-    align-content: space-between;
-    margin-top: 270px;
+    border-radius: 10px;
+    margin-top: 100px;
 }
 
 .User
 {  
-width: 55px;
-height: 55px;
-left: 241px;
-top: 737.05px;
-
-background: #FFECEC;
-border-radius: 70px;
+    background-color: rgb(255, 236, 236);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
 }
-
 
 .p90
 {  
@@ -363,21 +370,23 @@ color: #4F5665;
     color: #4F5665;
 }
 
+/*Вторая большая картинка с человечком*/
 .PicMan2
 {
-
+    position: relative;
     width: 508.12px;
     height: 414.71px;
-    left: 184.52px;
-    top: 960.38px;
+    left: 370.52px;
+    top: 200.38px;
 }
 
 .h2Use
 { 
+    position: relative;
     width: 383.41px;
     height: 100px;
-    left: 862.12px;
-    top: 1014.55px;
+    margin-left: 1150.12px;
+    top: -300px;
     
     font-family: Rubik;
     font-style: normal;
@@ -390,10 +399,11 @@ color: #4F5665;
 
 .pUse
 {
+    position: relative;
     width: 427.88px;
     height: 60px;
-    left: 862.12px;
-    top: 1134.55px;
+    margin-left: 1150.12px;
+    top: -290px;
     
     font-family: Rubik;
     font-style: normal;
@@ -404,48 +414,59 @@ color: #4F5665;
     color: #4F5665;
 }
 
+/*Список с зелеными галочками*/
+.pointsgreen
+{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
 .point1
 {  
+    position: relative;
     width: 24px;
     height: 24px;
-    left: 862.12px;
-    top: 1217.55px;
+    margin-left: 1150.12px;
+    top: -250px;
 }
 
 .point2
-{   
+{  
+ position: relative; 
  width: 24px;
  height: 24px;
- left: 862.12px;
- top: 1262.55px;
+ margin-left: 1150.12px;
+ top: -220px;
 }
 
 .point3
-{
-    
-width: 24px;
-height: 24px;
-left: 862.12px;
-top: 1307.55px;
-
+{   
+ position: relative;
+ width: 24px;
+ height: 24px;
+ margin-left: 1150.12px;
+ top: -190px;
 }
 
 .point4
 {
-    
+    position: relative;
     width: 24px;
     height: 24px;
-    left: 862.12px;
-    top: 1352.55px;  
+    margin-left: 1150.12px;
+    top: -160px;
 }
 
-.ch1
+.Green
 {
-    
+    list-style-type:none; 
+
+    position: relative;
     width: 179px;
     height: 30px;
-    left: 896.2px;
-    top: 1214.55px;
+    margin-left: 1150.12px;
+    top: -363px;
     
     font-family: Rubik;
     font-style: normal;
@@ -457,189 +478,102 @@ top: 1307.55px;
     color: #4F5665;
 }
 
-.ch2
+.Green li
 {
-    
-width: 163px;
-height: 30px;
-left: 896.2px;
-top: 1245.55px;
-
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 30px;
-
-color: #4F5665;
-
+    margin-bottom: 24px;
 }
 
-.ch3
-{ 
-    width: 125px;
-    height: 30px;
-    left: 896.2px;
-    top: 1290.55px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 30px;
-    
-    color: #4F5665; 
-}
-
-.ch4
+.Plan h2
 {
- width: 145px;
- height: 30px;
- left: 896.2px;
- top: 1335.55px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 
- font-family: Rubik;
- font-style: normal;
- font-weight: normal;
- font-size: 14px;
- line-height: 30px;
-
- color: #4F5665;
-}
-
-.Plan
-{
-    
-    width: 383.41px;
-    height: 50px;
-    left: 528.3px;
-    top: 1586.55px;
-    
     font-family: Rubik;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
     
-    text-align: center;
-    
     color: #0B132A;
     
 }
 
-.pCh
+.Plan p
 {   
-width: 555px;
-height: 60px;
-left: 442.5px;
-top: 1656.55px;
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
 
-text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 
-color: #4F5665;
+    text-align: center;
+
+    color: #4F5665;
 }
 
-.FreePic1
+/*Выбор плана (бесплатный, стандарт, премиум)*/
+.CYP
 {
-    
-    width: 144.9px;
-    height: 165.37px;
-    left: 267.55px;
-    top: 1856.18px;
-    
-}
-
-.FreePic2
-{
-    
-    width: 144.9px;
-    height: 165.37px;
-    left: 647.55px;
-    top: 1856.18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 50px;
+    margin-top: 100px;
     
 }
 
-.FreePic3
+.FreePL
 {
-    
-    width: 144.9px;
-    height: 165.37px;
-    left: 1027.55px;
-    top: 1856.18px;
-}
-
-.FreeGroup
-{
-    
-    width: 190.26px;
-    height: 150px;
-    left: 244.87px;
-    top: 2111.55px;
-    
-}
-
-.StandardGroup
-{
-    
-    width: 190.54px;
-    height: 190px;
-    left: 624.73px;
-    top: 2111.55px;
-    
-}
-
-.PremiumGroup
-{
-
-    
-    width: 190.54px;
-    height: 230px;
-    left: 1004.73px;
-    top: 2111.55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 80px 45px 180px;
+    width: 350px;
+    position: relative;
+    margin-bottom: 100px;
     
 }
 
 .pFP
-{
-    
-    width: 82px;
-    height: 30px;
-    left: 299px;
-    top: 2051.55px;
-    
+{ 
+    position: relative;
     font-family: Rubik;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;
-    
+ 
     text-align: center;
     
-    
-    color: #0B132A;
-    
+    color: #0B132A; 
 }
 
 .pF
-{
-    
-    width: 54px;
-    height: 30px;
-    left: 313px;
-    top: 2391.55px;
-    
+{ 
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
-    
     
     text-align: center;
     
@@ -648,22 +582,16 @@ color: #4F5665;
 
 .SelectF
 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration-line: none;
+    text-align: center;
+    text-decoration-line: none;
 
-width: 52px;
-height: 19px;
-left: 314px;
-top: 2454.55px;
-
-font-family: Rubik;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 40px;
-text-decoration-line: none;
-text-align: center;
-text-decoration-line: none;
-
-color: #F53838;
+    color: #F53838;
     
     width: 177.88px;
     height: 45px;
@@ -673,22 +601,31 @@ color: #F53838;
     border: 2px solid #F53838;
     box-sizing: border-box;
     border-radius: 50px;
-
 }
 
 .SelectF:hover
 {
-text-decoration-line: underline;
-color:orange;
+    text-decoration-line: underline;
+    color:orange;
+}
+
+.StandardPl
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 80px 45px 180px;
+    width: 350px;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .pSP
 {
-    
-    width: 123px;
-    height: 30px;
-    left: 658.5px;
-    top: 2051.55px;
     
     font-family: Rubik;
     font-style: normal;
@@ -703,11 +640,6 @@ color:orange;
 
 .p9
 {
-    
-    width: 92px;
-    height: 30px;
-    left: 674px;
-    top: 2391.55px;
     
     font-family: Rubik;
     font-style: normal;
@@ -733,31 +665,38 @@ color:orange;
     
     color: #F53838;
 
-    
-width: 177.88px;
-height: 45px;
-left: 631.06px;
-top: 2441.55px;
-
-border: 2px solid #F53838;
-box-sizing: border-box;
-border-radius: 50px;
+    width: 177.88px;
+    height: 45px;
+    left: 631.06px;
+    top: 2441.55px;
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
 }
 
 .SelectS:hover
 {
-text-decoration-line: underline;
-color:orange;
+    text-decoration-line: underline;
+    color:orange;
+}
+
+.PremiumPl
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 80px 45px 180px;
+    width: 350px;
+    position: relative;
+    margin-bottom: 100px;
 }
 
 .pPP
 {
-    
-    width: 121px;
-    height: 30px;
-    left: 1039.5px;
-    top: 2051.55px;
-    
     font-family: Rubik;
     font-style: normal;
     font-weight: 700;
@@ -769,12 +708,6 @@ color:orange;
 
 .p12
 {
-    
-    width: 104px;
-    height: 30px;
-    left: 1048px;
-    top: 2391.55px;
-    
     font-family: Rubik;
     font-style: normal;
     font-weight: 500;
@@ -787,20 +720,14 @@ color:orange;
 }
 
 .SelectP
-{
-    
-    width: 52px;
-    height: 19px;
-    left: 1074px;
-    top: 2454.55px;
-    
+{  
     font-family: Rubik;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 43px;
-   text-align:center;
-   text-decoration-line: none;
+    text-align:center;
+    text-decoration-line: none;
     
     
     color: #FFFFFF;
@@ -822,38 +749,52 @@ text-decoration-line: underline;
 color:maroon;
 }
 
-.h2HGN
+/*Huge Global Network of Fast VPN*/
+.sec4
 {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 350px;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
     
-    width: 383.41px;
+}
+.sec4 h2
+{
+    position: relative;
+    width: 447.81px;
     height: 100px;
-    left: 528.3px;
-    top: 2686.55px;
-    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 90px;
     font-family: Rubik;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
-   
-    text-align: center;
+    margin-top: 120px;
     
     color: #0B132A
 }
 
-.pHGN
+.sec4 p
 {
     
-    width: 555px;
-    height: 60px;
-    left: 442.5px;
-    top: 2806.55px;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
     
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 200px;
     
     text-align: center;
     
@@ -874,88 +815,43 @@ color:maroon;
     color: #4F5665;
 }
 
-.HugeGlobal
+.Sponsors
 {
-    
-    width: 1060px;
-    height: 537.77px;
-    left: 190px;
-    top: 3022.36px;
-    
+    display: inline-flex;
+    align-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 50px;
+
 }
 
-.netflix
+/*Секция 5 Trusted by Thousands of Happy Customers*/
+.sec5 h2
 {
-
-width: 200px;
-height: 112.5px;
-left: 145px;
-top: 3643.84px;
-}
-
-.reddit
-{
-    
-    width: 190px;
-    height: 60px;
-    left: 387.5px;
-    top: 3670.09px;
-}
-
-.amazon
-{
-    
-    width: 277.76px;
-    height: 208.32px;
-    left: 581.12px;
-    top: 3595.93px;
-}
-
-.discord
-{
-    
-    width: 187.02px;
-    height: 63.59px;
-    left: 862.5px;
-    top: 3670.09px;
-}
-
-.spotify
-{
-    
-    width: 171.28px;
-    height: 51.34px;
-    left: 1109.36px;
-    top: 3674.42px;
-    
-}
-
-.h2TTHC
-{
-    
+    position: relative;
     width: 447.81px;
     height: 100px;
-    left: 496.1px;
-    top: 3854.25px;
-    
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 90px;
+
     font-family: Rubik;
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
     
-    text-align: center;
-    
     color: #0B132A;
 }
 
 .pTTHC
 {
-    
+    position: relative;
     width: 555px;
     height: 60px;
-    left: 442.5px;
-    top: 3974.25px;
+    margin: 0 auto;
+    margin-top: 20px;
     
     font-family: Rubik;
     font-style: normal;
@@ -968,40 +864,54 @@ top: 3643.84px;
     color: #4F5665;
 }
 
-.PicRamRed
+/*Комментарии*/
+.Comments
 {
-    
+    overflow: scroll hidden;
+    margin-left: 50px;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.Robert
+{
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
     width: 400px;
-    height: 230px;
-    left: 150px;
-    top: 4094.25px;
+    position: relative;
+    margin-left: 30px;
+}
+.Robert:hover
+{
+    border: 2px solid red; 
 }
 
 .PicViezh
 {
-    
+    position: relative;
     width: 182px;
     height: 50px;
-    left: 180px;
-    top: 4124.25px;
+    left: 30px;
+    top: 24.25px;
 }
 
 .pMark1
 {
-    
+    position: relative;
     width: 24px;
     height: 16px;
-    left: 470px;
-    top: 4141.6px;
+    left: 270px;
+    margin-top: -70 px;
     
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    
-    display: flex;
-    align-items: center;
     
     color: #0B132A;
     
@@ -1009,283 +919,247 @@ top: 3643.84px;
 
 .star1
 {
-    
-width: 16px;
-height: 16px;
-left: 504px;
-top: 4140.9px;
-    
+    position: relative;
+    width: 16px;
+    height: 16px;
+    left: 310px;
+    top: -70px; 
 }
 
 .pCom1
 {
-    
+    position: relative;
     width: 340px;
     height: 100px;
-    left: 180px;
-    top: 4194.25px;
+    left: 10px;
+    top: -20px;
     
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    
-    display: flex;
-    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     
     color: #0B132A;
 }
 
-.PicRamGray1
+.Yessica
 {
-    
-    width: 400px;
-    height: 230px;
-    left: 600px;
-    top: 4094.25px;
-    
+    background: #FFFFFF;
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.Yessica:hover
+{
+    border: 2px solid red; 
 }
 
 .PicYessica
-{
-    
+{   
+    position: relative;
     width: 212.02px;
-    height: 50px;
-    left: 630px;
-    top: 4124.25px;
-    
+    height: 50px;;
+    left: 30px;
+    top: 24.25px;
 }
 
 .pCom2
-{
-    
-width: 340px;
-height: 100px;
-left: 630px;
-top: 4182.25px;
+{   
+  width: 340px;
+  height: 100px;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 
-
-color: #0B132A;
+  color: #0B132A;
 }
 
-.pMark2
+.Kim
 {
-    
-    width: 24px;
-    height: 16px;
-    left: 920px;
-    top: 4141.6px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    
-    display: flex;
-    align-items: center;
-    
-    color: #0B132A
-}
-
-.star2
-{
-    
-    width: 16px;
-    height: 16px;
-    left: 954px;
-    top: 4140.9px;
-}
-
-.PicRamGray2
-{
-    
-    width: 400px;
-    height: 230px;
-    left: 1050px;
-    top: 4094.25px;
-    
+    background: #FFFFFF;
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    margin-left: 30px;
+}
+
+.Kim:hover
+{
+    border: 2px solid red; 
 }
 
 .PicKim
-{
-    
+{ 
+    position: relative;
     width: 212.02px;
     height: 50px;
-    left: 1080px;
-    top: 4124.25px;
-}
-
-.pMark3
-{
-    
-    width: 24px;
-    height: 16px;
-    left: 1370px;
-    top: 4141.6px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    
-    display: flex;
-    align-items: center;
-    
-    color: #0B132A;
-}
-
-.star3
-{
-    
-    width: 16px;
-    height: 16px;
-    left: 1404px;
-    top: 4140.9px;
+    left: 30px;
+    top: 24.25px;
 }
 
 .pCom3
-{
-    
+{ 
     width: 340px;
     height: 100px;
-    left: 1080px;
-    top: 4177.25px;
-    
+
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    
-    display: flex;
-    align-items: center;
-    
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
     color: #0B132A;
 }
 
+/*Кнопки под коментами*/
 .Scroll
 {
-    
-width: 135px;
-height: 15px;
-left: 150px;
-top: 4406.75px;
+  position: relative;
+  width: 135px; 
+  height: 15px;
+  left: 50px;
+  top: 50px;
 }
 
 .BLeft
 {
-    
+    position: relative;
     background-image: url("Картинки/left.png");
     width: 60px;
     height: 60px;
-    left: 1150px;
-    top: 4380.75px;
+    float: right;
+    margin: 0 150px;
+    top: 70px;
 
-    border: 2px;
-    border-radius: 60px;
-box-sizing: border-box;
+    border-radius: 50%;
+    border: 2px solid rgb(245, 56, 56);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: white;
     cursor: pointer;
     background-repeat: no-repeat;
 }
 
 .BRight
 {
-    
+    position: relative;
     background-image: url("Картинки/right.png");
     width: 60px;
     height: 60px;
-    left: 1170px;
-    top: 4380.75px;
+    float: right;
+    margin: 0 -290px;
+    top: 70px;
 
-    border: 2px;
-    border-radius: 60px;
-    box-sizing: border-box;
+    background-color: rgb(245, 56, 56);
+    border: 2px solid rgb(245, 56, 56);
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
     cursor: pointer;
     background-repeat: no-repeat;
 
 }
 
+/*Сабскрайб*/
+.Sub1
+{
+    background-color: rgb(255, 255, 255);
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 35px 90px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-top: 200px;
+}
 .Subscr
 {
+    position: relative;
+    width: 371.61px;
+    height: 80px;
+    text-align:justify;
+    top: -40px;
+
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
     
-width: 371.61px;
-height: 80px;
-left: 220px;
-top: 4567.78px;
-
-font-family: Rubik;
-font-style: normal;
-font-weight: 700;
-font-size: 35px;
-line-height: 45px;
-
-display: flex;
-align-items: center;
-
-color: #0B132A;
+    color: #0B132A;
 }
 
 .pSub
 {
-    
-width: 410px;
-height: 16px;
-left: 220px;
-top: 4667.78px;
+    position: relative;
+    font-weight: 400;
+    top: 20px;
+    font-size: 16px;
+    left: -1285px;
+    top: 100px;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 
-display: flex;
-align-items: center;
-
-color: #4F5665;
+    color: #4F5665;
 }
 
 .Sub
 {
+    position: relative;
+
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(245, 56, 56);
+    width: 250px;
+    height: 30px;
+    float: right;
+    margin: 0 150px;
+    top: -150px;
+
+    cursor: pointer;
     
-    width: 120px;
-    height: 25px;
-    left: 970px;
-    top: 4613.28px;
-    
+    text-align: center;
+    color: rgb(255, 255, 255);
     font-family: Rubik;
     font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 60px;
-    text-align: center;
-    
-    color: #FFFFFF;
-    text-decoration-line: none;
-
-    
-    width: 250px;
-    height: 60px;
-    left: 970px;
-    top: 4613.78px;
-
-    background: #F53838;
-    border-radius: 10px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-decoration: none;
 }
 
 .Sub:hover
@@ -1294,23 +1168,24 @@ color: #4F5665;
    color:maroon
 }
 
+/*Футтер*/
 .Logo2
 {
-    
+    position: relative;
     width: 149px;
     height: 36.23px;
-    left: 150px;
-    top: 4805.78px;
+    left: 350px;
+    top: 105.78px;
     
 }
 
 .pLaslesVPN
 {
-    
+    position: relative;
     width: 340px;
     height: 61.57px;
-    left: 150px;
-    top: 4862.01px;
+    left: 350px;
+    top: 105.78px;
     
     font-family: Rubik;
     font-style: normal;
@@ -1331,89 +1206,100 @@ color: #4F5665;
     line-height: 30px;
 }
 
+/*Соц. сети*/
 .facebook
 {
-    
-width: 33.6px;
-height: 33.6px;
-left: 150px;
-top: 4953.58px;
-background-image: ("Картинки/Facebook.png");
+    position: relative;
+    width: 33.6px;
+    height: 33.6px;
+    left: 350px;
+    top: 150px;
+    background-image: ("Картинки/Facebook.png");
 }
 
 .twitter
-{
-    
+{ 
+    position: relative;
     width: 33.6px;
     height: 33.6px;
-    left: 203.6px;
-    top: 4953.58px;
+    left: 350px;
+    top: 150px;
     background-image: ("Картинки/Twitter.png");
 }
 
 .inst
-{
-    
+{ 
+    position: relative;
     width: 33.6px;
     height: 33.6px;
-    left: 257.2px;
-    top: 4953.58px;
+    left: 350px;
+    top: 150px;
     background-image: ("Картинки/Instagram.png");
 }
 
 .p2020
-{
-    
-width: 132px;
-height: 30px;
-left: 150px;
-top: 5017.18px;
+{   
+    position: relative;
+    width: 132px;
+    height: 30px;
+    left: 350px;
+    top: 150px;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 
-text-align: center;
+    text-align: center;
 
-color: #AFB5C0;
-
+    color: #AFB5C0;
 }
 
-.h3En
+.foott
 {
+    box-sizing: border-box;
+    margin-top: -180px;
+    margin-left: 1000px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;;
     
-    width: 66px;
+}
+
+.foott h3
+{
+    position: relative;
+    width: 102px;
     height: 30px;
-    left: 920px;
-    top: 4808.89px;
+    left: 0px;
+    top: 0px;
     
     font-family: Rubik;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;
-    text-decoration-line: none;
-    
-    color: #0B132A;
+}
+
+.foott ul
+{
+    position: relative;
+    width: 123px;
+    height: 280px;
+    left: -40px;
+    top: 0px;
+    line-height: 40px;  
+    font-family: Rubik;
+    font-style: normal;
 }
 
 .h3En:hover
 {
-text-decoration-line: underline;
-color: #0B132A;
-}
-
-.Engage
-{
-    
-    width: 123px;
-    height: 280px;
-    left: 920px;
-    top: 4840.89px;
-    line-height: 40px;
-    
+    text-decoration-line: underline;
+    color: #0B132A;
 }
 
 .En-link
@@ -1433,39 +1319,11 @@ color: #0B132A;
  list-style-type: none;
 }
 
-.h3Pr
-{
-    
-    width: 71px;
-    height: 30px;
-    left: 720px;
-    top: 4808.89px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    text-decoration-line: none;
-    
-    color: #0B132A;
-    
-}
 
 .h3Pr:hover
 {
     text-decoration-line: underline;
     color: #0B132A;
-}
-
-.Product
-{
-    
-    width: 74px;
-    height: 280px;
-    left: 720px;
-    top: 4840.89px;
-    line-height: 40px;
 }
 
 .Pr-link
@@ -1485,24 +1343,6 @@ color: #0B132A;
     list-style-type: none;
 }
 
-.h3Em
-{
-    
-    width: 102px;
-    height: 30px;
-    left: 1169px;
-    top: 4808.89px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px; 
-    text-decoration-line: none;
-    
-    color: #0B132A;
-    
-}
 
 .h3Em:hover
 {
@@ -1510,16 +1350,6 @@ color: #0B132A;
     color: #0B132A;
 }
 
-.Em
-{
-    
-    width: 121px;
-    height: 120px;
-    left: 1169px;
-    top: 4840.89px;
-    line-height: 40px;
-    
-}
 
 .Em-link
 {

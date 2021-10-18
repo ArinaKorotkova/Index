@@ -535,6 +535,12 @@ color: #4F5665;
     
 }
 
+.sem
+{
+   flex: 1 1 auto;
+}
+
+
 .FreePL
 {
     display: flex;

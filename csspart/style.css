@@ -22,16 +22,15 @@ body
 /*навигатор по страницам*/
 .Navaigator
 {
-position: relative;
-width: 46px;
-left: 400px;
+    position: relative;
+    width: 46px;
+    left: 400px;
 
-
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 19px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 ul.Begin 
@@ -73,18 +72,17 @@ ul.Begin
 .signin
 {  
     position: absolute;
- width: 53px;
- height: 19px;
- left: 800px;
- top: 67px;
- margin-left: 400px;
-
-
- font-family: Rubik;
- font-style: normal;
- font-weight: 500px;
- font-size: 16px;
- line-height: 19px;  
+    width: 53px;
+    height: 19px;
+    left: 800px;
+    top: 67px;
+    left: 1200px;
+    
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 19px;  
 }
 
 .signlink
@@ -101,27 +99,27 @@ ul.Begin
 /*Кнопка создать аккаунт*/
 .signbut
 {  
-position: absolute;
- width: 60px;
- height: 19px;
-
- font-family: Rubik;
- font-style: normal;
- font-weight: 700;
- font-size: 16px;
- line-height: 19px;
-
- color: #F53855;
-
- width: 150px;
- height: 45px;
- left: 850px;
- top: 55px;
- margin-left: 450px;
+    position: absolute;
+    width: 60px;
+    height: 19px;
     
- border: 1px solid #F53855;
- box-sizing: border-box;
- border-radius: 50px
+   font-family: Rubik;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 19px;
+
+   color: #F53855;
+
+   width: 150px;
+   height: 45px;
+   left: 850px;
+   top: 55px;
+   left: 1300px;
+    
+   border: 1px solid #F53855;
+   box-sizing: border-box;
+   border-radius: 50px
 }
 
 .signbut:hover
@@ -133,54 +131,53 @@ position: absolute;
 /*Want anything...*/
 .h1VPN1
 {  
- width: 555px;
- height: 140px;
- left: 150px;
- margin-top: 106.77px;;
- margin-left: 121.3px ;
+    width: 555px;
+    height: 140px;
+    margin-top: 106.77px;;
+    margin-left: 121.3px ;
 
- font-family: Rubik;
- font-style: normal;
- font-weight: 500;
- font-size: 50px;
- line-height: 70px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
 
- color: #0B132A
+    color: #0B132A
 }
 
 .LaslesVPN1
 {
-font-family: Rubik;
-font-style:normal;
-font-weight: 700;
-font-size: 50px;
-line-height: 70px;
+    font-family: Rubik;
+    font-style:normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 70px;
 }
 
 .ParVPN
 {  
- width: 555px;
- height: 60px;
- left: 150px;
- top: 390.77px;
- margin-left: 121.3px ;
+    width: 555px;
+    height: 60px;
+    left: 150px;
+    top: 390.77px;
+    margin-left: 121.3px ;
 
- font-family: Rubik;
- font-style: normal;
- font-weight: normal;
- font-size: 16px;
- line-height: 30px;
-
- color: #4F5665;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    
+    color: #4F5665;
 }
 
 .LaslesVPN2
 {
- font-family: Rubik;
- font-style: normal;
- font-weight: 500;
- font-size: 16px;
- line-height: 30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 /*Кнопка Get started*/
@@ -188,8 +185,6 @@ line-height: 70px;
 {
     width: 95px;
     height: 25px;
-    left: 227.5px;
-    top: 494.27px;
     
     font-family: Rubik;
     font-style: normal;
@@ -197,16 +192,15 @@ line-height: 70px;
     font-size: 16px;
     line-height: 25px;
     color: var(--btn-text-color);
-
- width: 250px;
- height: 60px;
- left: 150px;
- margin-left: 121.3px ;
- margin-top: 76.77px;;
     
- background: var(--btn-color-bg);
- border-radius: 10px;  
- border-color: rgb(255, 0, 0);
+    width: 250px;
+    height: 60px;
+    margin-left: 121.3px ;
+    margin-top: 76.77px;;
+    
+    background: var(--btn-color-bg);
+    border-radius: 10px; 
+    border-color: rgb(255, 0, 0);
 
 }
 
@@ -252,34 +246,34 @@ line-height: 70px;
 
 .p90
 {  
-width: 49px;
-height: 30px;
-left: 332.5px;
-top: 732.05px;
+    width: 49px;
+    height: 30px;
+    left: 332.5px;
+    top: 732.05px;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: bold;
-font-size: 25px;
-line-height: 30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
 
-color: #0B132A;
+    color: #0B132A;
 }
 
 .pU
 {   
-width: 53px;
-height: 30px;
-left: 332.5px;
-top: 767.05px;
+    width: 53px;
+    height: 30px;
+    left: 332.5px;
+    top: 767.05px;
 
-font-family: Rubik;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
 
-color: #4F5665;
+    color: #4F5665;
 }
 
 .LocPic
@@ -745,24 +739,21 @@ color: #4F5665;
     text-align:center;
     text-decoration-line: none;
     
-    
     color: #FFFFFF;
 
-    
+    width: 177.88px;
+    height: 45px;
+    left: 1011.06px;
+    top: 2441.55px;
 
-width: 177.88px;
-height: 45px;
-left: 1011.06px;
-top: 2441.55px;
-
-background: #F53838;
-border-radius: 50px;
+    background: #F53838;
+    border-radius: 50px;
 }
 
 .SelectP:hover
 {
-text-decoration-line: underline;
-color:maroon;
+    text-decoration-line: underline;
+    color:maroon;
 }
 
 /*Huge Global Network of Fast VPN*/
@@ -921,7 +912,7 @@ color:maroon;
     width: 24px;
     height: 16px;
     left: 270px;
-    margin-top: -70 px;
+    top: -43px;
     
     font-family: Rubik;
     font-style: normal;
@@ -991,19 +982,19 @@ color:maroon;
 
 .pCom2
 {   
-  width: 340px;
-  height: 100px;
+   width: 340px;
+   height: 100px;
 
-  font-family: Rubik;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+   font-family: Rubik;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-bottom: 10px;
 
-  color: #0B132A;
+   color: #0B132A;
 }
 
 .Kim
@@ -1053,11 +1044,11 @@ color:maroon;
 /*Кнопки под коментами*/
 .Scroll
 {
-  position: relative;
-  width: 135px; 
-  height: 15px;
-  left: 50px;
-  top: 50px;
+   position: relative;
+   width: 135px; 
+   height: 15px;
+   left: 50px;
+   top: 50px;
 }
 
 .BLeft
@@ -1208,7 +1199,6 @@ color:maroon;
     font-size: 16px;
     line-height: 30px;
     
-    
     color: #4F5665;
 }
 
@@ -1331,7 +1321,7 @@ color:maroon;
 
 .Enli
 {
- list-style-type: none;
+    list-style-type: none;
 }
 
 

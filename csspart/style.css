@@ -1106,24 +1106,6 @@ ul.Begin
     color: #0B132A;
 }
 
-.pSub
-{
-    position: absolute;
-    font-weight: 400;
-    top: 20px;
-    font-size: 16px;
-    left: 160px;
-    top: 4950px;;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-
-    color: #4F5665;
-}
-
 .Sub
 {
     position: relative;

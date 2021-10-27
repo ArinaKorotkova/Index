@@ -9,28 +9,24 @@ body
     background:#F6F6F6;;
 }
 
-/*логотип верхний*/
-.Logo
+
+.head
 {
-    position: relative;
-    width: 1050px;
-    height: 50px;
-    left: 121.3px;
-    top: 55px;
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
 }
 
 /*навигатор по страницам*/
 .Navaigator
 {
-    position: relative;
-    width: 46px;
-    left: 400px;
-
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
+    margin-left: auto;
+    padding: 0 10%;
 }
 
 ul.Begin 
@@ -69,26 +65,15 @@ ul.Begin
 
 
 /*Кнопка залогиниться*/
-.signin
-{  
-    position: absolute;
-    width: 53px;
-    height: 19px;
-    left: 800px;
-    top: 67px;
-    left: 1200px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500px;
-    font-size: 16px;
-    line-height: 19px;  
-}
-
 .signlink
 {
     text-decoration-line: none;
     color: #0B132A;  
+    font-family: Rubik;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 3em;
 }
 
 .signlink:hover
@@ -99,10 +84,6 @@ ul.Begin
 /*Кнопка создать аккаунт*/
 .signbut
 {  
-    position: absolute;
-    width: 60px;
-    height: 19px;
-    
    font-family: Rubik;
    font-style: normal;
    font-weight: 700;
@@ -113,9 +94,8 @@ ul.Begin
 
    width: 150px;
    height: 45px;
-   left: 850px;
-   top: 55px;
-   left: 1300px;
+   margin: auto;
+   padding: 0%;
     
    border: 1px solid #F53855;
    box-sizing: border-box;
@@ -1175,23 +1155,23 @@ ul.Begin
 }
 
 /*Футтер*/
+footer
+{
+    display: inline-flex;
+    margin: 3% 0 0 10%;
+ 
+}
 .Logo2
 {
-    position: relative;
     width: 149px;
     height: 36.23px;
-    left: 250px;
-    top: 105.78px;
     
 }
 
 .pLaslesVPN
 {
-    position: relative;
     width: 340px;
     height: 61.57px;
-    left: 250px;
-    top: 105.78px;
     
     font-family: Rubik;
     font-style: normal;
@@ -1214,41 +1194,29 @@ ul.Begin
 /*Соц. сети*/
 .facebook
 {
-    position: relative;
     width: 33.6px;
     height: 33.6px;
-    left: 230px;
-    top: 150px;
     background-image: ("Картинки/Facebook.png");
 }
 
 .twitter
 { 
-    position: relative;
     width: 33.6px;
     height: 33.6px;
-    left: 230px;
-    top: 150px;
     background-image: ("Картинки/Twitter.png");
 }
 
 .inst
 { 
-    position: relative;
     width: 33.6px;
     height: 33.6px;
-    left: 230px;
-    top: 150px;
     background-image: ("Картинки/Instagram.png");
 }
 
 .p2020
 {   
-    position: relative;
     width: 132px;
     height: 30px;
-    left: 250px;
-    top: 150px;
 
     font-family: Rubik;
     font-style: normal;
@@ -1264,15 +1232,8 @@ ul.Begin
 .foott
 {
     box-sizing: border-box;
-    margin-top: -180px;
-    margin-left: 1000px;
-    margin-right: 100px;
+    margin-left: 60%; 
     display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    align-content: space-around;
-    align-items:flex-start;
-    
 }
 
 .foott h3
@@ -1284,9 +1245,7 @@ ul.Begin
     font-size: 18px;
     line-height: 30px;
     flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
-    align-items:flex-start;
+    padding-right: 5em;
 }
 
 .foott ul
@@ -1296,9 +1255,8 @@ ul.Begin
     font-family: Rubik;
     font-style: normal;
     flex-direction: column;
-    align-content: space-around;
-    justify-content:space-around;
     align-items: flex-start;
+    padding: 0%;
 }
 
 .h3En:hover

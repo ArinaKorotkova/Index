@@ -3,571 +3,232 @@
   --btn-text-color: #FFFFFF;
   --btn-color-bg: #F53838;
 }
-
-body
+html
 {
     background:#F6F6F6;;
-}
-
-
-.head
-{
-    display: flex;
-    align-items: center;
-    padding: 1em 2em;
-}
-
-/*навигатор по страницам*/
-.Navaigator
-{
     font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
-    margin-left: auto;
-    padding: 0 10%;
 }
-
-ul.Begin 
+/***************/
+header
 {
-    display:inline-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
-
-  .Begin li 
+header nav
 {
-    font-size: 16px ;
-    list-style: none;   
+    justify-content: space-between;
 }
-  
-  .Begin li a 
+header ul
 {
-    text-decoration: none;
-    margin: 30px;
-    color: #4F5665;
+    display: inline-flex;      
 }
-
-.navli
+header li
 {
     list-style-type:none;
 }
-
-.nav-link
+header a
 {
+    margin-right: 40px;
     color: #4F5665;
     text-decoration-line: none;
 }
-
-.nav-link:hover
+header a:hover
 {
     text-decoration-line:underline
 }
-
-
-/*Кнопка залогиниться*/
-.signlink
-{
-    text-decoration-line: none;
-    color: #0B132A;  
-    font-family: Rubik;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 19px;
-    margin-right: 3em;
-}
-
-.signlink:hover
-{
-    text-decoration-line:underline;
-}
-
-/*Кнопка создать аккаунт*/
-.signbut
+header button
 {  
-   font-family: Rubik;
-   font-style: normal;
    font-weight: 700;
-   font-size: 16px;
    line-height: 19px;
-
+   background: none;
    color: #F53855;
-
    width: 150px;
-   height: 45px;
-   margin: auto;
-   padding: 0%;
-    
+   height: 45px;    
    border: 1px solid #F53855;
    box-sizing: border-box;
    border-radius: 50px
 }
-
-.signbut:hover
+header button:hover
 {
     text-decoration: underline;
     color:orange;
 }
-
-/*Want anything...*/
-.h1VPN1
-{  
-    width: 555px;
-    height: 140px;
-    margin-top: 106.77px;;
-    margin-left: 121.3px ;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 70px;
-
-    color: #0B132A
-}
-
-.LaslesVPN1
+/***************/
+.Get_started_banner
 {
-    font-family: Rubik;
-    font-style:normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-right: 6%;
+    margin-left: 5%;
+    margin-bottom: 100px;
 }
-
-.ParVPN
+.Get_started_banner h1
 {  
-    width: 555px;
+    width: 80%;
+    font-weight: 500;
+    font-size: 50px;  
+    line-height: 80px;  
+    color: #0B132A;
+}
+.Get_started_banner p
+{
+    width: 80%;
     height: 60px;
-    left: 150px;
-    top: 390.77px;
-    margin-left: 121.3px ;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    
-    color: #4F5665;
+    line-height: 30px;    
+    color: #13171f;
 }
-
-.LaslesVPN2
-{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-}
-
-/*Кнопка Get started*/
-.GetStr
-{
-    width: 95px;
-    height: 25px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 25px;
-    color: var(--btn-text-color);
-    
+.Get_started_banner button
+{    
     width: 250px;
-    height: 60px;
-    margin-left: 121.3px ;
-    margin-top: 76.77px;;
-    
-    background: var(--btn-color-bg);
+    height: 60px;  
+    margin-top: 1%;
+    font-weight: bold;    
     border-radius: 10px; 
+    line-height: 25px;
     border-color: rgb(255, 0, 0);
-
+    color: var(--btn-text-color);
+    background: var(--btn-color-bg);
 }
-
-.GetStr:hover
+.Get_started_banner button:hover
 {
   color:maroon;
 }
-
-/*Первая большая картинка с человечком*/
-.PicMan1
-{  
-    position: absolute;
-    left: 850.76px;
-    top: 150px;
-}
-
-
-/*Первый флекс в мейне*/
-.ULS
+/***************/
+.advantages
 {
-    background-color: rgb(255, 255, 255);
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 30px 30px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-self: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
+    height: 150px;
+    padding: 0;
     border-radius: 10px;
-    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
 }
-
-.User
-{  
-    background-color: rgb(255, 236, 236);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+.advantages_card
+{
     display: flex;
-    -webkit-box-align: center;
+    flex-direction: row;
+    align-items: center;   
+}
+/******************/
+.advantages_by_points
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
+    margin-left: 15%;
+    margin-right: 3%;
+    margin-bottom: 100px;
 }
-
-.p90
-{  
-    width: 49px;
-    height: 30px;
-    left: 332.5px;
-    top: 732.05px;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-
-    color: #0B132A;
-}
-
-.pU
-{   
-    width: 53px;
-    height: 30px;
-    left: 332.5px;
-    top: 767.05px;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-
-    color: #4F5665;
-}
-
-.LocPic
+.advantages_by_points h2
 { 
-    width: 55px;
-    height: 55px;
-    left: 628.5px;
-    top: 737.05px;
-    
-    background: #FFECEC;
-    border-radius: 70px;
-}
-
-.p30
-{  
-    width: 49px;
-    height: 30px;
-    left: 720px;
-    top: 732.05px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    
-    color: #0B132A;
-}
-
-.pLoc
-{ 
-    width: 91px;
-    height: 30px;
-    left: 720px;
-    top: 767.05px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    
-    color: #4F5665
-}
-
-.SerPic
-{
-    width: 55px;
-    height: 55px;
-    left: 1037px;
-    top: 737.05px;
-
-    background: #FFECEC;
-    border-radius: 70px;
-}
-
-.p50
-{ 
-    width: 49px;
-    height: 30px;
-    left: 1128.5px;
-    top: 732.05px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 30px;
-    
-    color: #0B132A;
-}
-
-.pSer
-{ 
-    width: 71px;
-    height: 30px;
-    left: 1128.5px;
-    top: 767.05px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    
-    color: #4F5665;
-}
-
-/*Вторая большая картинка с человечком*/
-.PicMan2
-{
-    position: relative;
-    width: 508.12px;
-    height: 414.71px;
-    left: 270.52px;
-    top: 200.38px;
-}
-
-.h2Use
-{ 
-    position: relative;
-    width: 383.41px;
-    height: 100px;
-    left: 950.12px;
-    top: -300px;
-    
-    font-family: Rubik;
-    font-style: normal;
+    width: 65%;
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    line-height: 50px;
-    
+    line-height: 50px;    
     color: #0B132A; 
 }
-
-.pUse
+.advantages_by_points p
 {
-    position: relative;
-    width: 427.88px;
-    height: 60px;
-    left: 950.12px;
-    top: -290px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    
+    width: 75%;
+    line-height: 25px;
     color: #4F5665;
 }
-
-/*Список с зелеными галочками*/
-.pointsgreen
+.advantages_by_points ul
 {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: auto;
-}
-.point1
-{  
-    position: relative;
-    width: 24px;
-    height: 24px;
-    margin-left: 950.12px;
-    top: -250px;
-}
-
-.point2
-{  
- position: relative; 
- width: 24px;
- height: 24px;
- margin-left: 950.12px;
- top: -220px;
-}
-
-.point3
-{   
- position: relative;
- width: 24px;
- height: 24px;
- margin-left: 950.12px;
- top: -190px;
-}
-
-.point4
-{
-    position: relative;
-    width: 24px;
-    height: 24px;
-    margin-left: 950.12px;
-    top: -160px;
-}
-
-.Green
-{
-    list-style-type:none; 
-
-    position: relative;
-    width: 179px;
-    height: 30px;
-    margin-left: 950.12px;
-    top: -363px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 30px;
-
-    
-    color: #4F5665;
-}
-
-.Green li
-{
-    margin-bottom: 24px;
-}
-
-.Plan h2
-{
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 0px;
-    -webkit-box-align: center;
-    align-items: center;
-    flex-direction: column;
+    list-style-image: url(/Картинки/galka.png);  
     display: flex;
-
-    font-family: Rubik;
-    font-style: normal;
+    flex-direction: column;
+}
+.advantages_by_points li
+{
+padding-bottom: 15px;
+margin-top: 15px;
+}   
+/************/
+.subscribe_plans h2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
-    
     color: #0B132A;
-    
 }
-
-.Plan p
+.subscribe_plans p
 {   
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 0px;
-    -webkit-box-align: center;
     align-items: center;
-    flex-direction: column;
-    display: flex;
-
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
+    flex-direction: column;    
     line-height: 30px;
-
     text-align: center;
-
     color: #4F5665;
 }
-
-/*Выбор плана (бесплатный, стандарт, премиум)*/
-.CYP
+.subscribe_plans_cards
 {
-    margin-left: 100px;
-    margin-right: 100px;
     display: flex;
     justify-content:space-evenly;
+    margin: 50px 100px 50px 100px;
     border-radius: 50px;
-    margin-top: 100px;
-    
 }
-
-.sem
-{
-   flex: 1 1 auto;
-}
-
-
-.FreePL
+.subscribe_plans_card
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    
     background: #FFFFFF;
     border: 2px solid #DDDDDD;
     box-sizing: border-box;
     border-radius: 10px;
-    padding: 80px 45px 180px;
-    width: 350px;
-    position: relative;
-    margin-bottom: 100px;
-    
+    padding: 80px 45px 60px;
+    width: 350px;    
 }
-.FreePL:hover
+.subscribe_plans_card:hover
 {
     border: 2px solid red;
 }
-
-.pFP
+.subscribe_plans_card ul
+{
+    list-style-image: url(/Картинки/ok_vec.png);
+}
+.subscribe_plans_card li
+{
+    padding-bottom: 30px;
+}
+.plan_title
 { 
-    position: relative;
-    font-family: Rubik;
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 30px;
- 
+    line-height: 30px; 
     text-align: center;
-    
     color: #0B132A; 
 }
-
-.pF
+.plan_price
 { 
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 25px;
-    line-height: 30px;
-    
-    text-align: center;
-    
+    line-height: 30px;    
+    text-align: center;    
     color: #0B132A;
 }
-
-.SelectF
+.Select_button
 {
-    font-family: Rubik;
-    font-style: normal;
     font-weight: bold;
-    font-size: 16px;
     line-height: 40px;
     text-decoration-line: none;
     text-align: center;
@@ -577,231 +238,42 @@ ul.Begin
     
     width: 177.88px;
     height: 45px;
-    left: 251.06px;
-    top: 2441.55px;
-    
     border: 2px solid #F53838;
     box-sizing: border-box;
     border-radius: 50px;
 }
-
-.SelectF:hover
+.Select_button:hover
 {
     text-decoration-line: underline;
     color:orange;
 }
-
-.StandardPl
+/*************************/
+.map_n_partners
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #FFFFFF;
-    border: 2px solid #DDDDDD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding: 80px 45px 180px;
-    width: 350px;
-    position: relative;
-    margin-bottom: 100px;
+    justify-content: center;    
 }
-.StandardPl:hover
+.map_n_partners h2
 {
-    border: 2px solid red;
-}
-
-.pSP
-{
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    
     text-align: center;
-    
-    color: #0B132A;
-}
-
-.p9
-{
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    text-align: center;
-    
-    color: #0B132A;
-}
-
-
-.SelectS
-{
-    vertical-align: middle;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 40px;
-    text-align: center;
-    text-decoration-line: none;
-    
-    color: #F53838;
-
-    width: 177.88px;
-    height: 45px;
-    left: 631.06px;
-    top: 2441.55px;
-    border: 2px solid #F53838;
-    box-sizing: border-box;
-    border-radius: 50px;
-}
-
-.SelectS:hover
-{
-    text-decoration-line: underline;
-    color:orange;
-}
-
-.PremiumPl
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #FFFFFF;
-    border: 2px solid #DDDDDD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    padding: 80px 45px 180px;
-    width: 350px;
-    position: relative;
-    margin-bottom: 100px;
-}
-.PremiumPl:hover
-{
-    border: 2px solid red;
-}
-
-.pPP
-{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
-    
-    text-align: center;     
-}
-
-.p12
-{
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    
-    text-align: center;
-    
-    color: #0B132A;
-}
-
-.SelectP
-{  
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 43px;
-    text-align:center;
-    text-decoration-line: none;
-    
-    color: #FFFFFF;
-
-    width: 177.88px;
-    height: 45px;
-    left: 1011.06px;
-    top: 2441.55px;
-
-    background: #F53838;
-    border-radius: 50px;
-}
-
-.SelectP:hover
-{
-    text-decoration-line: underline;
-    color:maroon;
-}
-
-/*Huge Global Network of Fast VPN*/
-.sec4
-{
-    box-sizing: border-box;
-    margin: 0px;
-    min-width: 350px;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-    
-}
-.sec4 h2
-{
-    position: relative;
-    width: 447.81px;
-    height: 100px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 90px;
-    font-family: Rubik;
-    font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
-    margin-top: 120px;
-    
     color: #0B132A
 }
-
-.sec4 p
+.map_n_partners p
 {
-    
+    text-align: center;
     font-weight: 400;
-    margin-top: 20px;
-    font-size: 16px;
-    text-align: center;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
     line-height: 30px;
     margin-top: 20px;
-    margin-bottom: 200px;
-    
+    margin-bottom: 80px;
     text-align: center;
-    
     color: #4F5665;
     
 }
-.pHGNVPN
-{
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight:bold;
-    font-size: 16px;
-    line-height: 30px;
-    
-    text-align: center;
-    
-    color: #4F5665;
-}
-
 .Sponsors
 {
     display: inline-flex;
@@ -809,122 +281,82 @@ ul.Begin
     align-items: center;
     flex-wrap: nowrap;
     justify-content: space-around;
-    gap: 50px;
-
+    gap: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
-
-/*Секция 5 Trusted by Thousands of Happy Customers*/
-.sec5 h2
+/********************/
+.customers_feedback
 {
-    position: relative;
-    width: 447.81px;
-    height: 100px;
+    margin-bottom: 100px;
+}
+.customers_feedback h2
+{
     text-align: center;
-    margin: 0 auto;
-    margin-top: 90px;
-
-    font-family: Rubik;
-    font-style: normal;
     font-weight: 700;
     font-size: 35px;
-    line-height: 50px;
-    
-    color: #0B132A;
+    color: #1c2a0b;
 }
-
-.pTTHC
+.customers_feedback p
 {
-    position: relative;
-    width: 555px;
-    height: 60px;
-    margin: 0 auto;
-    margin-top: 20px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    
     text-align: center;
-    
     color: #4F5665;
+    margin-bottom: 30px;
 }
-
-/*Комментарии*/
 .Comments
 {
-    overflow: scroll hidden;
-    margin-left: 50px;
-    margin-top: 60px;
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
-.Robert
+.Client_card
 {
-    background: #FFFFFF;
-    border: 2px solid #DDDDDD;
-    box-sizing: border-box;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     width: 400px;
-    position: relative;
-    margin-left: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
 }
-.Robert:hover
+.Client_card:hover
 {
-    border: 2px solid red; 
+    border: 2px solid rgb(49, 99, 165); 
 }
-
-.PicViezh
+.client_avatar
 {
     position: relative;
-    width: 182px;
+    width: 180px;
     height: 50px;
     left: 30px;
-    top: 24.25px;
+    top: 25px;
 }
-
-.pMark1
+.Mark
 {
     position: relative;
     width: 24px;
-    height: 16px;
     left: 270px;
-    top: -43px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    
+    right: 30px;
+    top: -25px;
+   
     color: #0B132A;
     
 }
-
-.star1
+.star
 {
     position: relative;
     width: 16px;
     height: 16px;
-    left: 310px;
-    top: -70px; 
+    left: 300px;
+    top: -73px; 
 }
-
-.pCom1
+.client_text
 {
     position: relative;
     width: 340px;
     height: 100px;
     left: 10px;
     top: -20px;
-    
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
     line-height: 30px;
     margin-left: 10px;
     margin-right: 10px;
@@ -933,120 +365,26 @@ ul.Begin
     color: #0B132A;
 }
 
-.Yessica
-{
-    background: #FFFFFF;
-    border: 2px solid #DDDDDD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    position: relative;
-    margin-left: 30px;
-}
-
-.Yessica:hover
-{
-    border: 2px solid red; 
-}
-
-.PicYessica
-{   
-    position: relative;
-    width: 212.02px;
-    height: 50px;;
-    left: 30px;
-    top: 24.25px;
-}
-
-.pCom2
-{   
-   width: 340px;
-   height: 100px;
-
-   font-family: Rubik;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   line-height: 30px;
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-bottom: 10px;
-
-   color: #0B132A;
-}
-
-.Kim
-{
-    background: #FFFFFF;
-    border: 2px solid #DDDDDD;
-    box-sizing: border-box;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    position: relative;
-    margin-left: 30px;
-}
-
-.Kim:hover
-{
-    border: 2px solid red; 
-}
-
-.PicKim
-{ 
-    position: relative;
-    width: 212.02px;
-    height: 50px;
-    left: 30px;
-    top: 24.25px;
-}
-
-.pCom3
-{ 
-    width: 340px;
-    height: 100px;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-
-    color: #0B132A;
-}
-
-/*Кнопки под коментами*/
 .Scroll
 {
-   position: relative;
    width: 135px; 
    height: 15px;
-   left: 50px;
-   top: 50px;
+   margin-left: 7%;
+   margin-top: 50px;
 }
 
 .BLeft
 {
-    position: relative;
     background-image: url("Картинки/left.png");
     width: 60px;
     height: 60px;
     float: right;
-    margin: 0 150px;
-    top: 70px;
+    margin: 25px 150px;
 
     border-radius: 50%;
     border: 2px solid rgb(245, 56, 56);
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    -webkit-box-pack: center;
     justify-content: center;
     background-color: white;
     cursor: pointer;
@@ -1055,21 +393,18 @@ ul.Begin
 
 .BRight
 {
-    position: relative;
     background-image: url("Картинки/right.png");
     width: 60px;
     height: 60px;
     float: right;
-    margin: 0 -290px;
-    top: 70px;
+    margin:  25px -290px;
+
 
     background-color: rgb(245, 56, 56);
     border: 2px solid rgb(245, 56, 56);
     border-radius: 50%;
     display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    -webkit-box-pack: center;
     justify-content: center;
     cursor: pointer;
     background-repeat: no-repeat;
@@ -1080,51 +415,42 @@ ul.Begin
 .Sub1
 {
     background-color: rgb(255, 255, 255);
-    margin-left: 70px;
-    margin-right: 70px;
-    padding: 35px 90px;
-    display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
     border-radius: 10px;
-    margin-top: 200px;
-}
-.Subscr
-{
-    position: relative;
-    width: 371.61px;
-    height: 80px;
-    text-align:justify;
-    top: -40px;
 
-    font-family: Rubik;
-    font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+}
+.Sub1 p
+{
+    width: 370px;
+    height: 80px;
+
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
     
-    color: #0B132A;
+    color: #000000;
 }
 
-.Sub
+.Sub1 a
 {
-    position: relative;
-
     border-radius: 10px;
     padding: 15px;
     background-color: rgb(245, 56, 56);
     width: 250px;
     height: 30px;
-    float: right;
-    margin: 0 150px;
-    top: -150px;
 
     cursor: pointer;
     
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: Rubik;
-    font-style: normal;
+
     font-weight: 500;
     font-size: 25px;
     line-height: 40px;
@@ -1136,180 +462,69 @@ ul.Begin
    color:maroon
 }
 
-/*Футтер*/
+/*****************/
 footer
 {
-    display: inline-flex;
-    margin: 3% 0 0 10%;
- 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20%;
 }
-.Logo2
+footer ul a
 {
-    width: 149px;
-    height: 36.23px;
-    
+    text-decoration: none;
 }
-
 .pLaslesVPN
 {
-    width: 340px;
-    height: 61.57px;
-    
-    font-family: Rubik;
-    font-style: normal;
+    width: 55%;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 30px;
-    
+    line-height: 30px;    
     color: #4F5665;
 }
-
-.FootLasVPN
+.media-links
 {
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
-/*Соц. сети*/
-.facebook
-{
-    width: 33.6px;
-    height: 33.6px;
-    background-image: ("Картинки/Facebook.png");
-}
-
-.twitter
+.media-links li
 { 
-    width: 33.6px;
-    height: 33.6px;
-    background-image: ("Картинки/Twitter.png");
+  float: left;
+  text-align: center;
 }
-
-.inst
-{ 
-    width: 33.6px;
-    height: 33.6px;
-    background-image: ("Картинки/Instagram.png");
-}
-
 .p2020
 {   
-    width: 132px;
-    height: 30px;
-
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 30px;
-
+    width: 130px;
     text-align: center;
-
     color: #AFB5C0;
 }
-
 .foott
 {
-    box-sizing: border-box;
-    margin-left: 60%; 
+    text-align: left;
     display: flex;
-}
-
-.foott h3
-{
-    display: flex;
-    font-family: Rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 30px;
     flex-direction: row;
-    padding-right: 5em;
+    justify-content: flex-end;
+    margin-right: 20%;
 }
-
+.foott div
+{
+    margin-left: 100px;
+}
 .foott ul
 {
-    display: flex;
+
+    list-style: none;
     line-height: 40px;
-    font-family: Rubik;
-    font-style: normal;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0%;
+    padding-left: 0;
+    
 }
-
-.h3En:hover
+.foot li
+{
+    text-decoration-color: #000000;
+}
+.foott li:hover
 {
     text-decoration-line: underline;
     color: #0B132A;
-}
-
-.En-link
-{
-    text-decoration-line: none;
-    color: #4F5665;
-}
-
-.En-link:hover
-{
-    text-decoration-line: underline;
-    color: #4F5665;
-}
-
-.Enli
-{
-    list-style-type: none;
-}
-
-
-.h3Pr:hover
-{
-    text-decoration-line: underline;
-    color: #0B132A;
-}
-
-.Pr-link
-{
-    text-decoration-line: none;
-    color: #4F5665;
-}
-
-.Pr-link:hover
-{
-    text-decoration-line: underline;
-    color: #4F5665;
-}
-
-.Prli
-{
-    list-style-type: none;
-}
-
-
-.h3Em:hover
-{
-    text-decoration-line: underline;
-    color: #0B132A;
-}
-
-
-.Em-link
-{
-    text-decoration-line: none;
-    color: #4F5665;
-}
-
-.Em-link:hover
-{
-    text-decoration-line: underline;
-    color: #4F5665;
-}
-
-.EmLi
-{
-    list-style-type: none;
 }
 

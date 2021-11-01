@@ -149,7 +149,7 @@ header button:hover
 }
 .advantages_by_points ul
 {
-    list-style-image: url(/Картинки/galka.png);  
+    list-style-image: url(/Картинки/O1.svg);  
     display: flex;
     flex-direction: column;
 }
@@ -204,7 +204,7 @@ margin-top: 15px;
 }
 .subscribe_plans_card ul
 {
-    list-style-image: url(/Картинки/ok_vec.png);
+    list-style-image: url(/Картинки/Ok.svg);
 }
 .subscribe_plans_card li
 {

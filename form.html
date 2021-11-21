@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csspart/normalize.css">
+    <link href="csspart/formstyle.css" rel="stylesheet">
+    <title>Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700" rel="stylesheet" />
+</head>
+<body>
+    <header>
+
+        <img src="Картинки\Logo.svg">
+
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+
+        <div class="GetBack">
+            <a href="index.html" target="_blank">Get back</a>
+        </div>
+
+    </header>
+
+   <main>
+       <form name="contact" method="post" data-netlify="true">
+           <fieldset>
+            <legend>Личная информация</legend>
+            <ul>
+                <li>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name" placeholder="ФИО" required>
+                </li>
+                <li>
+                    <label>Date of birthday: <input type="date" name="date" required></label>
+                </li>
+                <li>
+                    <label>Choose your gender: <input type="radio" name="radio" value="1">м </label>
+                    <label><input type="radio" name="radio" value="1">ж </label>
+                </li>
+            </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Контактные данные</legend>
+                <ul>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail">
+                  </li>
+                  <li>
+                    <label>Phone number: <input type="tel" name="tel" placeholder="89994445566" required></label>
+                    <label>Time for connection: <input type="time" name="time"></label>
+                  </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <legend>Безопасность</legend>
+                <ul>
+                  <li>
+                    <lable for="password">Create your password: </lable>
+                    <input type="password" name="password" id="password" required>
+                  </li>
+                  <li>
+                    <lable for="password">Repeate your password: </lable>
+                    <input type="password" name="password" id="password" required>
+                  </li>
+              </ul>
+           </fieldset>
+
+           <fieldset>
+            <button type="submit">Send information</button>
+            <button type="reset">Reset information</button>
+           </fieldset>
+       </form>
+
+   </main>
+
+    <footer>
+        <div>
+            <img src="Картинки\Logo.svg" width: 145px; height: 35px;>
+            <p class="pLaslesVPN"><span style="font-weight: bold;">LaslesVPN</span> is a private virtual network that has unique features and has security.</p>
+            <div>
+                <ul class="media-links">
+                    <li><a href="#"><img src="/Картинки/Instagram.png" alt="insta"></a>
+                    </li>
+                    <li><a href="#"><img src="/Картинки/Facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="/Картинки/Twitter.png" alt="twitter"></a></li>
+                </ul>
+            </div>
+            <p class="p2020">©2020LaslesVPN</p>
+        </div>
+        
+        <div class="foott">
+
+            <div>
+                <h3>Product</h3>
+                <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Server</a></li>
+                    <li><a href="#">Countries</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Engage</h3>
+                <ul >
+                    <li><a href="#">LaslesVPN ?</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+    
+            <div>
+                <h3>Earn Money</h3>
+                <ul>
+                    <li><a href="#">Affiliate</a></li>
+                    <li><a href="#">Become Partner</a></li>
+                </ul>
+            </div>
+
+        </div> 
+    </footer>
+</body>
+</html>

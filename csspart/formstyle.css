@@ -97,17 +97,28 @@ input:focus
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
-
+.name
+{
+    min-width: 50%;
+}
+.Email
+{
+    min-width: 50%; 
+}
 form button
 {
     margin: 1%;
     padding: 1%;
     border-radius: 5px;
+    cursor: pointer;
 }
 .Submit
 {
     background-color:darkseagreen;
-    cursor: pointer;
+}
+.Submit::after
+{
+    content: " ✅"  
 }
 .Submit:hover
 {
@@ -120,7 +131,6 @@ form button
 .Reset
 {
     background-color:darksalmon;
-    cursor: pointer;
 }
 .Reset:hover
 {

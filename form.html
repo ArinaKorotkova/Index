@@ -37,7 +37,7 @@
             <ul>
                 <li>
                   <label for="name">Name:</label>
-                  <input type="text" id="name" name="user_name" placeholder="ФИО" required>
+                  <input class= "name" type="text" id="name" name="user_name" placeholder="ФИО" required>
                 </li>
                 <li>
                     <label>Date of birthday: <input type="date" name="date" required></label>
@@ -57,14 +57,14 @@
                 <ul>
                 <li>
                     <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="user_mail">
+                    <input class = "Email" type="email" id="mail" name="user_mail">
                   </li>
                   <li>
-                    <label>Phone number: <input type="tel" name="tel" placeholder="89994445566" required minlength="9" maxlength="11"></label>
+                    <label>Phone number: <input type="tel" name="tel" placeholder="89994445566" required maxlength="11"></label>
                   </li>
                   <li>
                     <label>Day for connection: <input type="date" name="dateconect"></label>
-                    <label>Time for connection:<input type="time" name="timeconectstart"></label>
+                    <label>Time for connection:<input type="time" name="timeconec   tstart"></label>
                     <input type="time" name="timeconectend">
                   </li>
                 </ul>
@@ -86,7 +86,24 @@
 
            <fieldset>
             <button class="Submit" type="submit" >Submit information</button>
-            <button class="Reset" type="reset">Reset information</button>
+            <button class="Reset" type="reset">Reset information <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                width="12.000000pt" height="12.000000pt" viewBox="0 0 512.000000 512.000000"
+                preserveAspectRatio="xMidYMid meet">
+               <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+               fill="#000000" stroke="none">
+               <path d="M995 5114 c-183 -44 -188 -48 -526 -379 -162 -160 -309 -306 -325
+               -325 -144 -167 -159 -423 -36 -605 21 -30 299 -320 620 -644 l583 -590 -423
+               -418 c-779 -768 -793 -782 -825 -848 -17 -33 -36 -82 -44 -110 -18 -64 -18
+               -196 0 -260 33 -119 62 -156 366 -466 317 -323 339 -343 405 -381 111 -63 269
+               -80 391 -44 118 35 154 67 774 679 l595 588 417 -423 c759 -770 782 -793 848
+               -825 33 -17 83 -36 110 -44 64 -18 196 -18 260 0 119 33 156 62 466 366 342
+               336 346 341 387 420 43 84 55 137 55 235 0 102 -27 194 -81 275 -21 30 -299
+               320 -620 644 l-584 591 419 412 c769 757 798 787 830 853 17 33 36 83 44 110
+               18 64 18 196 0 260 -33 119 -62 156 -366 466 -317 323 -339 343 -405 381 -111
+               63 -269 80 -391 44 -118 -35 -154 -67 -774 -679 l-595 -588 -417 423 c-738
+               749 -783 793 -842 823 -30 15 -75 33 -100 41 -49 15 -182 26 -216 18z"/>
+               </g>
+               </svg></button>
            </fieldset>
        </form>
 

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="csspart/normalize.css">
+    <link href="csspart/form2style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700" rel="stylesheet" />
+    <title>Псевдоклассы и псевдоэлементы</title>
+</head>
+<body>
+    <header>
+
+        <img src="Картинки\Logo.svg">
+
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <a class="GetBack" href="index.html" target="_blank">Get to main</a>
+            <a class="GetToForm" href="form.html" target="_blank">Get to form</a>
+        </div>
+
+    </header>
+    <main>
+        <form name="psevdoform" method="post" data-netlify="true">
+
+        <fieldset>
+            <legend>Определение</legend>
+            <dl>
+                <dt class="psevdo">Псевдоэлементы</dt>
+                <dd>Псевдоэлемент в CSS — это ключевое слово, добавляемое к селектору, которое позволяет стилизовать
+                    определённую часть выбранного элемента. Например, псевдоэлемент ::first-line может быть
+                    использован для изменения шрифта первой строки абзаца.</dd>
+
+                <dt class="psevdo">Псевдоклассы</dt>
+                <dd>Псевдокласс в CSS — это ключевое слово, добавленное к селектору, которое определяет его особое
+                    состояние. Например, :hover может быть использован для изменения цвета кнопки при наведении
+                    курсора на неё.</dd>
+            </dl>
+        </fieldset>
+
+        <fieldset>
+            <legend>Список псевдоэлементов</legend>
+            <ul class="psevdoelement">
+                <li><input type="checkbox" name="name" value="Псевдоэлемент" checked> <span>::after</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент"> <span>::before</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент"> <span>::cue</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент" checked> <span>::first-letter</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент"> <span>::first-line</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент" checked> <span>::selection</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент"> <span>::slotted</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент"> <span>::backdrop</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент" checked> <span>::placeholder</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент"> <span>::marker</span></li>
+                <li><input type="checkbox" name="name" value="Псевдоэлемент"> <span>::grammar-error</span></li>
+            </ul>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Список псевдоклассов</legend>
+            <ul class="psevdoclass">
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:active</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:any-link</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:checked</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:default</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:defined</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:dir()</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:disabled</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:empty</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:enabled</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:first</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:first-child</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:first-of-type</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:fullscreen</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:focus</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:hover</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:indeterminate</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:in-range</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:invalid</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:lang()</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:last-child</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:last-of-type</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:left</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:link</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:not()</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:nth-child()</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:nth-last-child()</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:nth-last-of-type()</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:nth-of-type()</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:only-child</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:only-of-type</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:optional</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:out-of-range</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:read-only</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:read-write</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:required</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:right</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:root</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:target</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс"> <span>:valid</span></li>
+                <li><input type="checkbox" name="name1" value="Псевдкласс" checked> <span>:visited</span></li>
+            </ul>
+
+        </fieldset>
+
+
+    </form>
+    </main>
+
+</body>
+</html>

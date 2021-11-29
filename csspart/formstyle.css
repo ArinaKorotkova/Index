@@ -7,6 +7,11 @@ html
     font-size: 16px;
     
 }
+::selection
+{
+   background-color:burlywood; 
+}
+
 body
 {
     display: flex;
@@ -88,14 +93,18 @@ fieldset
 {
     margin-top: 7px;
 }
-
 input
 {
     margin: 0 5px;
     margin-right: 1 5px;
     border-radius: 5px;
-
 }
+input[type = "radio"]:checked + span
+{
+    color:goldenrod;
+    font-size: 18px;
+}
+
 input:hover
 {
     box-shadow:0 0 4px rgba(0,0,0,0.5);
@@ -103,11 +112,12 @@ input:hover
 input:focus
 {
     color: #212529;
-    background-color: #fff;
+    background-color:cornsilk;
     border-color: #bdbdbd;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
+
 .name
 {
     min-width: 50%;
@@ -115,6 +125,22 @@ input:focus
 .Email
 {
     min-width: 50%; 
+}
+input[type = "checkbox"]:checked + span
+{
+    color:goldenrod;
+    font-size: 18px;
+}
+
+input[type = "tel"]::placeholder
+{
+    color:maroon;
+    font-size: 18px;
+}
+
+:required
+{
+ border-color: red;
 }
 form button
 {
@@ -215,4 +241,8 @@ footer ul a
 .foott a
 {
     color: #000000;
+}
+.foott a:active
+{
+color:burlywood;
 }

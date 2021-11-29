@@ -20,7 +20,7 @@
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Help</a></li>
+                <li><a href="form2.html">Help</a></li>
             </ul>
         </nav>
 
@@ -44,8 +44,8 @@
                 </li>
                 <p>Choose your gender: </p>
                 <li>
-                    <label><input type="radio" name="radio" value="m">male </label>
-                    <label><input type="radio" name="radio" value="w">female </label>
+                    <label><input type="radio" name="radio" value="m" checked><span>Male</span></label>
+                    <label><input type="radio" name="radio" value="w"><span>Female</span></label>
                 </li>
                 <li>
                     <label>Where are you from? <input type="text" name="country" value=""></label>
@@ -61,15 +61,15 @@
                     <input class = "Email" type="email" id="mail" name="user_mail">
                   </li>
                   <li>
-                    <label>Phone number: <input type="tel" name="tel" placeholder="89994445566" required maxlength="11"></label>
+                    <label>Phone number: <input type="tel" name="tel" placeholder="89997776655" required minlength = "9" maxlength ="11"></label>
                   </li>
                   <li>
                     <label>Day for connection: <input type="date" name="dateconect"></label>
                     <p>Part of the day:</p>
-                    <label><input type="checkbox" name="part1" value= "Morning">Утро</label>
-                    <label><input type="checkbox" name="part1" value= "Afternoon">День</label>
-                    <label><input type="checkbox" name="part1" value= "Evening">Вечер</label>
-                    <label><input type="checkbox" name="part1" value= "Night">Ночь</label>
+                    <label><input type="checkbox" name="part1" value= "Morning" checked><span>Утро</span></label>
+                    <label><input type="checkbox" name="part1" value= "Afternoon"><span>День</span></label>
+                    <label><input type="checkbox" name="part1" value= "Evening"><span>Вечер</span></label>
+                    <label><input type="checkbox" name="part1" value= "Night"><span>Ночь</span></label>
                   </li>
                 </ul>
             </fieldset>
@@ -90,7 +90,7 @@
 
            <fieldset>
             <button class="Submit" type="submit" >Submit information</button>
-            <button class="Reset" type="reset">Reset information <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+            <button class="Reset" type="reset" disabled>Reset information <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                 width="12.000000pt" height="12.000000pt" viewBox="0 0 512.000000 512.000000"
                 preserveAspectRatio="xMidYMid meet">
                <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"

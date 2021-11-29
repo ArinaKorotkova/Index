@@ -81,6 +81,7 @@ header a:hover
 {
     text-decoration-line: none;
 }
+
 /***************/
 fieldset
 {
@@ -144,4 +145,73 @@ li input:checked + span
 .psevdoclass li:nth-child(even)
 {
     background-color:powderblue;
+}
+
+/***************/
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 20%;
+    flex-shrink: 0;
+}
+footer ul a
+{
+    text-decoration: none;
+}
+.pLaslesVPN
+{
+    width: 55%;
+    font-weight: 500;
+    line-height: 30px;    
+    color: #4F5665;
+}
+.media-links
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.media-links li
+{ 
+  float: left;
+  text-align: center;
+}
+.p2020
+{   
+    width: 130px;
+    text-align: center;
+    color: #AFB5C0;
+}
+.foott
+{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+.foott div
+{
+    margin-left: 100px;
+}
+.foott ul
+{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 0;
+    
+}
+.foott li:hover
+{
+    text-decoration-line: underline;
+}
+.foott a
+{
+    color: #000000;
+}
+.foott a:active
+{
+color:burlywood;
 }

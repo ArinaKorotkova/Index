@@ -1,0 +1,240 @@
+:root
+{
+  --btn-text-color: #FFFFFF;
+  --btn-color-bg: #F53838;
+}
+html
+{
+    background:#F6F6F6;;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    
+}
+::selection
+{
+   background-color:burlywood; 
+}
+*:hover
+{
+    transition-property: all;
+    transition-duration: 2s;
+}
+/***************/
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+header nav
+{
+    justify-content: space-between;
+}
+header ul
+{
+    display: inline-flex;      
+}
+header li
+{
+    list-style-type:none;
+}
+header a
+{
+    margin-right: 40px;
+    color: #4F5665;
+    text-decoration-line: none;
+}
+header a:hover
+{
+    text-decoration-line:underline
+}
+header a:visited
+{
+    text-decoration-line:underline;
+}
+
+.GetBack
+{
+    line-height: 40px;
+    border: 3px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding: 7px 15px;
+    background-color: white;
+}
+.GetBack:hover
+{
+    text-decoration-line: none;
+    box-shadow: 2px 2px 20px 1px;
+}
+/***************/
+fieldset
+{
+    margin: 4% 10% 4% 10%;
+    padding: 4%;
+    border: 2px solid #AFB5C0;
+    border-radius: 1em;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+fieldset div
+{
+    width: 200px;
+    height: 200px;
+}
+
+.Grad_linear
+{
+    background: linear-gradient(powderblue, pink);
+}
+
+.Gard_radial
+{
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+.Grad_conic
+{
+    background: conic-gradient(from 45deg, red, orange, yellow, green, blue, purple);
+}
+
+.Method_translate
+{
+    background: linear-gradient(powderblue, pink);
+}
+.Method_translate:hover
+{
+    transform: translate(30px,85px);
+}
+.Method_rotate
+{
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+.Method_rotate:hover
+{
+    transform: rotate(360deg);
+}
+.Method_scale
+{
+    background: conic-gradient(from 45deg, red, orange, yellow, green, blue, purple);
+}
+.Method_scale:hover
+{
+    transform: scale(0.5, 0.5);
+}
+.Method_perspective
+{
+    background: linear-gradient(powderblue, pink);
+}
+.Method_perspective:hover
+{
+    transform: rotateX(51deg) rotateY(35deg) perspective(700px);
+}
+.Method_rotate_ar
+{
+    background: radial-gradient(40% 50%, #FAECD5, #CAE4D8);
+}
+.Method_rotate_ar:hover
+{
+    transform: rotateX(360deg);
+}
+.Method_trans1
+{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    transition: width 5s, height 5s, background-color 5s, transform 5s;
+}
+.Method_trans1:hover
+{
+    background-color: powderblue;
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+
+.Method_trans2
+{
+    background-image: conic-gradient(
+        red, orange, yellow, green, blue, purple
+      );
+      transition-timing-function: ease-out;
+}
+.Method_trans2:hover
+{
+    transform: translateX(60px);
+}
+
+/***************/
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20%;
+}
+footer ul a
+{
+    text-decoration: none;
+}
+.pLaslesVPN
+{
+    width: 55%;
+    font-weight: 500;
+    line-height: 30px;    
+    color: #4F5665;
+}
+.media-links
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.media-links li
+{ 
+  float: left;
+  text-align: center;
+}
+.p2020
+{   
+    width: 130px;
+    text-align: center;
+    color: #AFB5C0;
+}
+.foott
+{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20%;
+}
+.foott div
+{
+    margin-left: 100px;
+}
+.foott ul
+{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 0;
+    
+}
+
+.foott li:hover
+{
+    text-decoration-line: underline;
+}
+
+.foott a
+{
+    color: #000000;
+}

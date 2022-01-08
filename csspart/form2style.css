@@ -66,6 +66,7 @@ header a:hover
 .GetBack:hover
 {
     text-decoration-line: none;
+    box-shadow: 2px 2px 20px 1px;
 }
 
 .GetToForm
@@ -80,6 +81,7 @@ header a:hover
 .GetToForm:hover
 {
     text-decoration-line: none;
+    box-shadow: 2px 2px 20px 1px;
 }
 
 /***************/
@@ -89,6 +91,7 @@ fieldset
     flex-direction: column;
     padding: 10px;
     margin: 5%;
+    box-shadow:  0 10px 10px rgba(0,0,0,0.5);
 }
 
 dt 

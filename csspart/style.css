@@ -16,6 +16,11 @@ html
 {
    background-color:burlywood; 
 }
+*:hover
+{
+    transition-property: all;
+    transition-duration: 2s;
+}
 /***************/
 header
 {
@@ -62,7 +67,8 @@ header button
    height: 45px;    
    border: 2px solid #F53855;
    box-sizing: border-box;
-   border-radius: 50px
+   border-radius: 50px;
+   background-color: #FFFFFF;
 }
 header button:hover
 {
@@ -258,6 +264,73 @@ margin-top: 15px;
     text-decoration-line: underline;
     color:orange;
 }
+/*************************/
+.subscribe_plans_card1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 80px 45px 60px;
+    margin-left: 37%;
+    width: 550px;    
+    animation: ani 8s forwards;
+}
+.subscribe_plans_card1:hover
+{
+    border: 2px solid red;
+}
+
+.loader 
+{
+    position: absolute;
+    border: #f3f3f3 solid 16px;
+    border-top: 16px solid maroon;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite, an 5s linear forwards;
+    margin-top: 20px;
+}
+@keyframes ani 
+{
+    0% 
+    {
+      opacity: 0;
+    }
+    100% 
+    {
+      opacity: 1;
+    }
+}
+
+@keyframes spin 
+{
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes an
+{
+    0%
+    {
+      opacity: 1;
+    }
+    100% 
+    {
+      opacity: 0;
+    }
+}
+
 /*************************/
 .map_n_partners
 {

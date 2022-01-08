@@ -66,6 +66,7 @@ header a:hover
 .GetBack:hover
 {
     text-decoration-line: none;
+    box-shadow: 2px 2px 20px 1px;
 }
 
 /***************/
@@ -77,6 +78,7 @@ form
     border: 1px solid #AFB5C0;
     border-radius: 1em;
     flex-grow: 1;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 ul 
 {
@@ -186,6 +188,7 @@ footer
     justify-content: flex-end;
     margin-left: 20%;
     flex-shrink: 0;
+    margin: 0 auto;
 }
 footer ul a
 {

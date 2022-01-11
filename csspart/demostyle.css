@@ -74,7 +74,7 @@ header a:visited
 /***************/
 fieldset
 {
-    margin: 4% 10% 4% 10%;
+    margin: 4% 8% 4% 8%;
     padding: 4%;
     border: 2px solid #AFB5C0;
     border-radius: 1em;
@@ -83,6 +83,13 @@ fieldset
     justify-content: space-between;
     align-items: center;
 }
+
+fieldset h2
+{
+    padding-left: 3%;
+    padding-right: 1%;
+}
+
 fieldset div
 {
     width: 200px;
